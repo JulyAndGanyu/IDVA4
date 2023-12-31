@@ -1,0 +1,26 @@
+
+LOAD CSV WITH HEADERS  FROM "file:///total.csv" AS line
+MERGE (p:begin{name:line.beginname})
+
+LOAD CSV WITH HEADERS  FROM "file:///dsname.csv" AS line
+MERGE (p:DS{name:line.dsname,focus_object:line.object,focus_area:line.area})
+
+LOAD CSV WITH HEADERS  FROM "file:///diname.csv" AS line
+MERGE (p:DI{name:line.diname})
+
+LOAD CSV WITH HEADERS  FROM "file:///vsname.csv" AS line
+MERGE (p:VS{name:line.vsname})
+
+
+LOAD CSV WITH HEADERS FROM "file:///begin2ds.csv" AS line  
+match (from:begin{name:line.from}),(to:DS{name:line.to})  
+merge (from)-[r:DrivingScenes{property:line.rel}]->(to)
+
+LOAD CSV WITH HEADERS FROM "file:///ds2vs.csv" AS line  
+match (from:DS{name:line.dsname}),(to:VS{name:line.vsname})  
+merge (from)-[r:vehiclespeed{property:line.rel1}]->(to)
+
+
+MATCH(p:DS) WHERE p.name CONTAINS "straightaway"  
+MATCH(p:DS)-[:DrivingIntent]->(w:DI) WHERE w.name="decelerate"  
+MATCH(p:DS)-[:vehiclespeed]->(v:VS) WHERE v.name="Fast"   RETURN p

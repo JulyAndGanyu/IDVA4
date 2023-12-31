@@ -1,0 +1,159 @@
+from,rel,to
+﻿straightaway1,Driving_Intent,brake
+straightaway2,Driving_Intent,decelerate
+straightaway3,Driving_Intent,brake
+straightaway4,Driving_Intent,decelerate
+straightaway5,Driving_Intent,decelerate
+straightaway6,Driving_Intent,decelerate
+straightaway7,Driving_Intent,decelerate
+straightaway8,Driving_Intent,decelerate
+straightaway9,Driving_Intent,decelerate
+straightaway10,Driving_Intent,decelerate
+straightaway11,Driving_Intent,brake
+straightaway12,Driving_Intent,decelerate
+straightaway13,Driving_Intent,accelerate
+straightaway14,Driving_Intent,accelerate
+straightaway15,Driving_Intent,accelerate
+straightaway16,Driving_Intent,accelerate
+straightaway17,Driving_Intent,accelerate
+straightaway18,Driving_Intent,accelerate
+straightaway19,Driving_Intent,accelerate
+straightaway20,Driving_Intent,accelerate
+straightaway21,Driving_Intent,accelerate
+straightaway22,Driving_Intent,Left-lane change
+straightaway23,Driving_Intent,Left-lane change
+straightaway24,Driving_Intent,Left-lane change
+straightaway25,Driving_Intent,Left-lane change
+straightaway26,Driving_Intent,Left-lane change
+straightaway27,Driving_Intent,Left-lane change
+straightaway28,Driving_Intent,Left-lane change
+straightaway29,Driving_Intent,Left-lane change
+straightaway30,Driving_Intent,Left-lane change
+straightaway31,Driving_Intent,Right-lane change
+straightaway32,Driving_Intent,Right-lane change
+straightaway33,Driving_Intent,Right-lane change
+straightaway34,Driving_Intent,Right-lane change
+straightaway35,Driving_Intent,Right-lane change
+straightaway36,Driving_Intent,Right-lane change
+straightaway37,Driving_Intent,Right-lane change
+straightaway38,Driving_Intent,Right-lane change
+straightaway39,Driving_Intent,Right-lane change
+straightaway40,Driving_Intent,Right-lane change
+Crossroads1,Driving_Intent,Turn left
+Crossroads2,Driving_Intent,Turn left
+Crossroads3,Driving_Intent,Turn left
+Crossroads4,Driving_Intent,Turn left
+Crossroads5,Driving_Intent,Turn left
+Crossroads6,Driving_Intent,Turn left
+Crossroads7,Driving_Intent,Turn left
+Crossroads8,Driving_Intent,Turn left
+Crossroads9,Driving_Intent,Turn left
+Crossroads10,Driving_Intent,Turn left
+Crossroads11,Driving_Intent,Turn left
+Crossroads12,Driving_Intent,Turn left
+Crossroads13,Driving_Intent,Turn left
+Crossroads14,Driving_Intent,Turn left
+Crossroads15,Driving_Intent,Turn left
+Crossroads16,Driving_Intent,Turn left
+Crossroads17,Driving_Intent,Turn left
+Crossroads18,Driving_Intent,Turn left
+Crossroads19,Driving_Intent,Turn left
+Crossroads20,Driving_Intent,Turn left
+Crossroads21,Driving_Intent,Turn left
+Crossroads22,Driving_Intent,Turn left
+Crossroads23,Driving_Intent,Turn left
+Crossroads24,Driving_Intent,Turn left
+Crossroads25,Driving_Intent,Turn left
+Crossroads26,Driving_Intent,Turn left
+Crossroads27,Driving_Intent,Turn left
+Crossroads28,Driving_Intent,Go straight
+Crossroads29,Driving_Intent,Go straight
+Crossroads30,Driving_Intent,Go straight
+Crossroads31,Driving_Intent,Go straight
+Crossroads32,Driving_Intent,Go straight
+Crossroads33,Driving_Intent,Go straight
+Crossroads34,Driving_Intent,Go straight
+Crossroads35,Driving_Intent,Go straight
+Crossroads36,Driving_Intent,Go straight
+Crossroads37,Driving_Intent,Go straight
+Crossroads38,Driving_Intent,Go straight
+Crossroads39,Driving_Intent,Go straight
+Crossroads40,Driving_Intent,Go straight
+Crossroads41,Driving_Intent,Go straight
+Crossroads42,Driving_Intent,Go straight
+Crossroads43,Driving_Intent,Go straight
+Crossroads44,Driving_Intent,Go straight
+Crossroads45,Driving_Intent,Go straight
+Crossroads46,Driving_Intent,Go straight
+Crossroads47,Driving_Intent,Go straight
+Crossroads48,Driving_Intent,Go straight
+Crossroads49,Driving_Intent,Go straight
+Crossroads50,Driving_Intent,Go straight
+Crossroads51,Driving_Intent,Go straight
+Crossroads52,Driving_Intent,Go straight
+Crossroads53,Driving_Intent,Go straight
+Crossroads54,Driving_Intent,Go straight
+Crossroads55,Driving_Intent,Go straight
+Crossroads56,Driving_Intent,Go straight
+Crossroads57,Driving_Intent,Go straight
+Crossroads58,Driving_Intent,Go straight
+Crossroads59,Driving_Intent,Go straight
+Crossroads60,Driving_Intent,Go straight
+Crossroads61,Driving_Intent,Go straight
+Crossroads62,Driving_Intent,Go straight
+Crossroads63,Driving_Intent,Go straight
+Crossroads64,Driving_Intent,Go straight
+Crossroads65,Driving_Intent,Go straight
+Crossroads66,Driving_Intent,Go straight
+Crossroads67,Driving_Intent,Go straight
+Crossroads68,Driving_Intent,Go straight
+Crossroads69,Driving_Intent,Go straight
+Crossroads70,Driving_Intent,Go straight
+Crossroads71,Driving_Intent,Go straight
+Crossroads72,Driving_Intent,Go straight
+Crossroads73,Driving_Intent,Go straight
+Crossroads74,Driving_Intent,Turn right
+Crossroads75,Driving_Intent,Turn right
+Crossroads76,Driving_Intent,Turn right
+Crossroads77,Driving_Intent,Turn right
+Crossroads78,Driving_Intent,Turn right
+Crossroads79,Driving_Intent,Turn right
+Crossroads80,Driving_Intent,Turn right
+Crossroads81,Driving_Intent,Turn right
+Crossroads82,Driving_Intent,Turn right
+Crossroads83,Driving_Intent,Turn right
+Crossroads84,Driving_Intent,Turn right
+Crossroads85,Driving_Intent,Turn right
+Crossroads86,Driving_Intent,Turn right
+Crossroads87,Driving_Intent,Turn right
+Crossroads88,Driving_Intent,Turn right
+Crossroads89,Driving_Intent,Turn right
+Crossroads90,Driving_Intent,Turn right
+Trident1,Driving_Intent,Go straight
+Trident2,Driving_Intent,Go straight
+Trident3,Driving_Intent,Go straight
+Trident4,Driving_Intent,Go straight
+Trident5,Driving_Intent,Go straight
+Trident6,Driving_Intent,Go straight
+Trident7,Driving_Intent,Go straight
+Trident8,Driving_Intent,Go straight
+Trident9,Driving_Intent,Go straight
+Trident10,Driving_Intent,Go straight
+Trident11,Driving_Intent,Go straight
+Trident12,Driving_Intent,Go straight
+Trident13,Driving_Intent,Go straight
+Trident14,Driving_Intent,Go straight
+Trident15,Driving_Intent,Go straight
+Trident16,Driving_Intent,Turn right
+Trident17,Driving_Intent,Turn right
+Trident18,Driving_Intent,Turn right
+Trident19,Driving_Intent,Turn right
+Trident20,Driving_Intent,Turn right
+Trident21,Driving_Intent,Turn right
+Trident22,Driving_Intent,Turn right
+Trident23,Driving_Intent,Turn right
+Trident24,Driving_Intent,Turn right
+Trident25,Driving_Intent,Turn right
+,,
+,,
+,,
